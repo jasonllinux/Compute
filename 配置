@@ -1,0 +1,14 @@
+ssh
+
+host&&IP配置
+
+内容配置
+
+
+3、解决本地登陆用户与远程登陆用户不一致 
+好吧，这事很纠结，虽然不用输入密码了，但是还得 ssh username@hostname 来登陆，很不爽，你懂的。 其实解决也很简单（but是同事告诉我的，老脸一红），修改本地登陆用户的 ~/.ssh/config 文件，如果木有的话就自个儿建一个吧，内容如下： 
+Host hostname 
+user username 
+Host hostname2 
+user username2 
+这样，本地和远程登陆用户名不一致也可以 ssh hostname 登陆了。

@@ -1,0 +1,42 @@
+2012-07-10 19:45:08,192 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-07-10 19:45:08,404 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2012-07-10 19:45:08,524 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2012-07-10 19:45:08,594 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@76027982
+2012-07-10 19:45:08,692 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=130514944, MaxSingleShuffleLimit=32628736
+2012-07-10 19:45:08,724 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Thread started: Thread for merging on-disk files
+2012-07-10 19:45:08,725 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Thread waiting: Thread for merging on-disk files
+2012-07-10 19:45:08,726 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Thread started: Thread for merging in memory files
+2012-07-10 19:45:08,726 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Need another 20 map output(s) where 0 is already in progress
+2012-07-10 19:45:08,727 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:08,727 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Thread started: Thread for polling Map Completion Events
+2012-07-10 19:45:13,727 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 3 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:13,890 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 3 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:18,897 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 3 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:18,902 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and2 dup hosts)
+2012-07-10 19:45:18,903 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and1 dup hosts)
+2012-07-10 19:45:18,908 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:23,910 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 3 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:23,915 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and2 dup hosts)
+2012-07-10 19:45:23,917 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and1 dup hosts)
+2012-07-10 19:45:23,923 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:28,928 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:28,933 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201207101942_0003_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2012-07-10 19:45:29,770 INFO org.apache.hadoop.mapred.ReduceTask: GetMapEventsThread exiting
+2012-07-10 19:45:29,770 INFO org.apache.hadoop.mapred.ReduceTask: getMapsEventsThread joined.
+2012-07-10 19:45:29,770 INFO org.apache.hadoop.mapred.ReduceTask: Closed ram manager
+2012-07-10 19:45:29,770 INFO org.apache.hadoop.mapred.ReduceTask: Interleaved on-disk merge complete: 0 files left.
+2012-07-10 19:45:29,770 INFO org.apache.hadoop.mapred.ReduceTask: In-memory merge complete: 20 files left.
+2012-07-10 19:45:29,781 INFO org.apache.hadoop.mapred.Merger: Merging 20 sorted segments
+2012-07-10 19:45:29,781 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 20 segments left of total size: 480 bytes
+2012-07-10 19:45:29,788 INFO org.apache.hadoop.mapred.ReduceTask: Merged 20 segments, 480 bytes to disk to satisfy reduce memory limit
+2012-07-10 19:45:29,788 INFO org.apache.hadoop.mapred.ReduceTask: Merging 1 files, 446 bytes from disk
+2012-07-10 19:45:29,789 INFO org.apache.hadoop.mapred.ReduceTask: Merging 0 segments, 0 bytes from memory into reduce
+2012-07-10 19:45:29,789 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2012-07-10 19:45:29,792 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 442 bytes
+2012-07-10 19:45:29,933 INFO org.apache.hadoop.mapred.Task: Task:attempt_201207101942_0003_r_000000_0 is done. And is in the process of commiting
+2012-07-10 19:45:31,966 INFO org.apache.hadoop.mapred.Task: Task attempt_201207101942_0003_r_000000_0 is allowed to commit now
+2012-07-10 19:45:32,071 INFO org.apache.hadoop.mapred.FileOutputCommitter: Saved output of task 'attempt_201207101942_0003_r_000000_0' to hdfs://rescue01:9999/user/rescue01/PiEstimator_TMP_3_141592654/out
+2012-07-10 19:45:32,619 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201207101942_0003_r_000000_0' done.
+2012-07-10 19:45:32,620 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2012-07-10 19:45:32,650 INFO org.apache.hadoop.io.nativeio.NativeIO: Initialized cache for UID to User mapping with a cache timeout of 14400 seconds.
+2012-07-10 19:45:32,650 INFO org.apache.hadoop.io.nativeio.NativeIO: Got UserName rescue04 for UID 1000 from the native implementation
