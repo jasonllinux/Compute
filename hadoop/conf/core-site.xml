@@ -12,7 +12,7 @@
 <property>
   <name>hadoop.tmp.dir</name>
 	<!-- /opt/hadoop/tmp/hadoop-${user.name}-->
- <value>/opt/hadoop-datastore/hadoop-${user.name}</value>
+    <value>/opt/hadoop/tmp/hadoop-${user.name}</value>
   <description>A base for other temporary directories.</description>
 </property>
 
@@ -131,7 +131,7 @@
 
 <property>
   <name>fs.default.name</name>
-  <value>hdfs://rescue01:9999</value>
+  <value>hdfs://arch:9999</value>
   <description>The name of the default file system.  A URI whose
   scheme and authority determine the FileSystem implementation.  The
   uri's scheme determines the config property (fs.SCHEME.impl) naming

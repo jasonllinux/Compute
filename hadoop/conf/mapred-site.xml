@@ -7,7 +7,7 @@
 
   <property>
     <name>mapred.job.tracker</name>
-    <value>rescue01:9998</value>
+    <value>arch:9998</value>
     <description></description>
   </property>
 
